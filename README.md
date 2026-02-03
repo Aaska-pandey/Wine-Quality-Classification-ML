@@ -1,6 +1,5 @@
 # 🍷 Wine Quality Prediction Using Machine Learning
 
-![Platform](https://img.shields.io/badge/Platform-Web%20App-blue.svg)
 ![Language](https://img.shields.io/badge/Language-Python-green.svg)
 ![Category](https://img.shields.io/badge/Category-Machine%20Learning-purple.svg)
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-red.svg)
@@ -10,9 +9,6 @@
 
 ---
 
-## 🖼️ Demo Preview
-
-![Wine Quality Prediction App Demo](assets/app_ui.png)
 
 🔗 **Live Demo:**  
 👉 https://wine-quality-prediction-0jpm.onrender.com
