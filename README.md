@@ -1,107 +1,141 @@
-🍷 Wine Quality Prediction Web App
+# 🍷 Wine Quality Prediction Using Machine Learning
 
-🔗 Live Demo:
+![Platform](https://img.shields.io/badge/Platform-Web%20App-blue.svg)
+![Language](https://img.shields.io/badge/Language-Python-green.svg)
+![Category](https://img.shields.io/badge/Category-Machine%20Learning-purple.svg)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-red.svg)
+![Model](https://img.shields.io/badge/Model-Random%20Forest-orange.svg)
+
+**ML-Based Wine Quality Classification with Interactive Web Dashboard**
+
+---
+
+## 🖼️ Demo Preview
+
+![Wine Quality Prediction App Demo](assets/app_ui.png)
+
+🔗 **Live Demo:**  
 👉 https://wine-quality-prediction-0jpm.onrender.com
 
+---
 
-📌 Project Overview
+## 📌 Overview
 
-The Wine Quality Prediction App is a Machine Learning–powered web application that predicts whether a red wine is of Good or Bad quality based on its chemical composition.
+This project is a **Wine Quality Prediction System** built using **Machine Learning and Streamlit**.  
+It allows users to predict whether a red wine is of **Good** or **Bad** quality based on its chemical properties.
 
-The application is built using Python, Streamlit, and Scikit-learn, providing an interactive interface where users can input wine properties and instantly get predictions.
+The application uses a **Random Forest Classifier** trained on the **Wine Quality Dataset** and provides an interactive **web dashboard** for real-time predictions.
 
-🚀 Key Features
+This project was developed as part of an **AI/ML learning and portfolio development program**.
 
-Interactive and responsive Streamlit UI
+---
 
-Real-time wine quality prediction
+## ✨ Features
 
-Random Forest Classifier for high accuracy
+🍷 Predicts wine quality (Good / Bad)  
+🌐 Interactive Streamlit web dashboard  
+📊 Displays model accuracy  
+🎚 Easy-to-use slider-based inputs  
+⚡ Real-time prediction results  
+🛠 Beginner-friendly & expandable ML project  
 
-Displays model accuracy on test data
+---
 
-Easy-to-use sliders for all input features
+## 🧠 Machine Learning Details
 
-Beginner-friendly and production-ready ML project
+- **Algorithm:** Random Forest Classifier  
+- **Problem Type:** Binary Classification  
+- **Target Variable:** Wine Quality  
+- **Class Mapping:**
+  - Good Quality → Quality > 5  
+  - Bad Quality → Quality ≤ 5  
+- **Train-Test Split:** 80% Training | 20% Testing  
+- **Evaluation Metric:** Accuracy Score  
 
-🧠 Machine Learning Model
+---
 
-Algorithm: Random Forest Classifier
+## 🧪 Input Parameters
 
-Problem Type: Binary Classification
+The model uses the following wine chemical properties:
 
-Classes:
+- Fixed Acidity  
+- Volatile Acidity  
+- Citric Acid  
+- Residual Sugar  
+- Chlorides  
+- Free Sulfur Dioxide  
+- Total Sulfur Dioxide  
+- Density  
+- pH  
+- Sulphates  
+- Alcohol  
 
-Good Quality → Wine quality > 5
+---
 
-Bad Quality → Wine quality ≤ 5
+## 📊 Output
 
-Train-Test Split: 80% training, 20% testing
+🍾 **Good Quality Wine**  
+❌ **Bad Quality Wine**  
 
-Evaluation Metric: Accuracy Score
+Model accuracy is shown directly on the web interface.
 
-🧪 Input Features
+---
 
-The prediction is based on the following chemical properties of wine:
+## 🛠 Tech Stack
 
-Fixed Acidity
+- **Language:** Python 3.12.2  
+- **Framework:** Streamlit  
+- **ML Library:** Scikit-learn  
+- **Data Processing:** Pandas, NumPy  
 
-Volatile Acidity
+---
 
-Citric Acid
+## 📁 Project Structure
 
-Residual Sugar
+wine-quality-prediction/
+│── README.md
+│── app.py
+│── requirements.txt
+│── runtime.txt
+│── Wine Quality Classification.ipynb
+│── assets/
+│ └── app_ui.png
 
-Chlorides
 
-Free Sulfur Dioxide
+---
 
-Total Sulfur Dioxide
+🔗 Live Application:
+👉 https://wine-quality-prediction-0jpm.onrender.com
 
-Density
+🧠 How It Works
+Dataset is loaded and preprocessed
 
-pH
+Wine quality is converted into binary classes
 
-Sulphates
+Random Forest model is trained
 
-Alcohol
+User inputs values via sliders
 
-📊 Output
+Model predicts wine quality
 
-🍾 Good Quality Wine
+Result is displayed instantly
 
-❌ Bad Quality Wine
+🔮 Future Enhancements
+Multi-class wine quality prediction
 
-Model accuracy displayed on the app interface
+Model comparison (Logistic, XGBoost, SVM)
 
-🛠️ Tech Stack
+Feature importance visualization
 
-Programming Language: Python 3.12.2
+Cloud database integration
 
-Framework: Streamlit
+User authentication
 
-ML Library: Scikit-learn
+🏅 Why This Project Is Valuable
+This project demonstrates skills in:
 
-Data Handling: Pandas, NumPy
-
-📁 Project Structure
-├── app.py                          # Streamlit application
-├── requirements.txt                # Project dependencies
-├── runtime.txt                     # Python version
-├── Wine Quality Classification.ipynb
-├── assets/
-│   └── app_ui.png                  # App screenshot
-└── README.md
-
-▶️ Run Locally
-pip install -r requirements.txt
-github
-streamlit run app.py
-
-🌐 Deployment
-
-The application is deployed using Streamlit Cloud and can also be deployed on:
-
-Render
-
-Heroku
+✔ Machine Learning fundamentals
+✔ Data preprocessing & feature engineering
+✔ Model training and evaluation
+✔ Streamlit web app development
+✔ End-to-end ML deployment
